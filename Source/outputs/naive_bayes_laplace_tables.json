@@ -1,0 +1,66 @@
+{
+    "class_priors": {
+        "0": 0.8729,
+        "1": 0.1271
+    },
+    "likelihoods": {
+        "0": {
+            "NhietDo": {
+                "Lanh": 0.0758,
+                "Mat": 0.86,
+                "Nong": 0.0641
+            },
+            "DoAm": {
+                "BinhThuong": 0.4296,
+                "Cao": 0.5704
+            },
+            "ApSuat": {
+                "Cao": 0.0649,
+                "TB": 0.6497,
+                "Thap": 0.2854
+            },
+            "Gio": {
+                "Manh": 0.4984,
+                "Yeu": 0.5016
+            },
+            "HuongGio": {
+                "DongBac": 0.1587,
+                "Khac": 0.5504,
+                "TayNam": 0.2909
+            },
+            "BienDoNhiet": {
+                "Hep": 0.284,
+                "Rong": 0.716
+            }
+        },
+        "1": {
+            "NhietDo": {
+                "Lanh": 0.1543,
+                "Mat": 0.8404,
+                "Nong": 0.0053
+            },
+            "DoAm": {
+                "BinhThuong": 0.0053,
+                "Cao": 0.9947
+            },
+            "ApSuat": {
+                "Cao": 0.016,
+                "TB": 0.25,
+                "Thap": 0.734
+            },
+            "Gio": {
+                "Manh": 0.4813,
+                "Yeu": 0.5187
+            },
+            "HuongGio": {
+                "DongBac": 0.0851,
+                "Khac": 0.25,
+                "TayNam": 0.6649
+            },
+            "BienDoNhiet": {
+                "Hep": 0.7112,
+                "Rong": 0.2888
+            }
+        }
+    }
+}

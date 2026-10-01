@@ -1,0 +1,7 @@
+Mô Hình,Val_Accuracy,Val_Precision,Val_Recall,Val_F1,Test_Accuracy,Test_Precision,Test_Recall,Test_F1,Test_TP,Test_FN,Test_FP,Test_TN
+ID3 - Full Features,0.8809,0.5909,0.2097,0.3095,0.8727,0.4615,0.0984,0.1622,6,55,7,419
+ID3 - Reduct Features,0.8809,0.5909,0.2097,0.3095,0.8727,0.4615,0.0984,0.1622,6,55,7,419
+Naive Bayes - Full Features,0.8255,0.3789,0.5806,0.4586,0.8378,0.3953,0.5574,0.4626,34,27,52,374
+Naive Bayes - Reduct Features,0.8255,0.3789,0.5806,0.4586,0.8378,0.3953,0.5574,0.4626,34,27,52,374
+CART - Full Features,0.8768,0.5833,0.1129,0.1892,0.8768,0.6,0.0492,0.0909,3,58,2,424
+CART - Reduct Features,0.8768,0.5833,0.1129,0.1892,0.8768,0.6,0.0492,0.0909,3,58,2,424

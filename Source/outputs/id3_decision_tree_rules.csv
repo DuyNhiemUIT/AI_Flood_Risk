@@ -1,0 +1,15 @@
+rule,class,samples,confidence
+IF (DoAm = 'BinhThuong') THEN (Rain_Flood_Risk = 0),0,548,1.0
+IF (DoAm = 'Cao') AND (ApSuat = 'Cao') AND (HuongGio = 'DongBac') THEN (Rain_Flood_Risk = 0),0,9,1.0
+IF (DoAm = 'Cao') AND (ApSuat = 'Cao') AND (HuongGio = 'Khac') THEN (Rain_Flood_Risk = 0),0,3,0.6667
+IF (DoAm = 'Cao') AND (ApSuat = 'Cao') AND (HuongGio = 'TayNam') THEN (Rain_Flood_Risk = 1),1,1,1.0
+IF (DoAm = 'Cao') AND (ApSuat = 'TB') AND (NhietDo = 'Lanh') AND (Gio = 'Manh') THEN (Rain_Flood_Risk = 0),0,14,0.6429
+IF (DoAm = 'Cao') AND (ApSuat = 'TB') AND (NhietDo = 'Lanh') AND (Gio = 'Yeu') THEN (Rain_Flood_Risk = 0),0,38,0.9211
+IF (DoAm = 'Cao') AND (ApSuat = 'TB') AND (NhietDo = 'Mat') AND (Gio = 'Manh') THEN (Rain_Flood_Risk = 0),0,139,0.9424
+IF (DoAm = 'Cao') AND (ApSuat = 'TB') AND (NhietDo = 'Mat') AND (Gio = 'Yeu') THEN (Rain_Flood_Risk = 0),0,279,0.8925
+IF (DoAm = 'Cao') AND (ApSuat = 'Thap') AND (BienDoNhiet = 'Hep') AND (NhietDo = 'Lanh') THEN (Rain_Flood_Risk = 1),1,31,0.5484
+IF (DoAm = 'Cao') AND (ApSuat = 'Thap') AND (BienDoNhiet = 'Hep') AND (NhietDo = 'Mat') THEN (Rain_Flood_Risk = 0),0,241,0.6224
+IF (DoAm = 'Cao') AND (ApSuat = 'Thap') AND (BienDoNhiet = 'Hep') AND (NhietDo = 'Nong') THEN (Rain_Flood_Risk = 0),0,1,1.0
+IF (DoAm = 'Cao') AND (ApSuat = 'Thap') AND (BienDoNhiet = 'Rong') AND (NhietDo = 'Lanh') THEN (Rain_Flood_Risk = 0),0,2,0.5
+IF (DoAm = 'Cao') AND (ApSuat = 'Thap') AND (BienDoNhiet = 'Rong') AND (NhietDo = 'Mat') THEN (Rain_Flood_Risk = 0),0,153,0.817
+IF (DoAm = 'Cao') AND (ApSuat = 'Thap') AND (BienDoNhiet = 'Rong') AND (NhietDo = 'Nong') THEN (Rain_Flood_Risk = 0),0,2,1.0

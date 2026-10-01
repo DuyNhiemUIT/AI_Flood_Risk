@@ -1,0 +1,34 @@
+|- - ApSuat_Thap <= 0.50
+|   |- - DoAm_Cao <= 0.50
+|   |   |- - class: 0
+|   |- - DoAm_Cao >  0.50
+|   |   |- - NhietDo_Mat <= 0.50
+|   |   |   |- - Gio_Yeu <= 0.50
+|   |   |   |   |- - class: 0
+|   |   |   |- - Gio_Yeu >  0.50
+|   |   |   |   |- - class: 0
+|   |   |- - NhietDo_Mat >  0.50
+|   |   |   |- - Gio_Yeu <= 0.50
+|   |   |   |   |- - class: 0
+|   |   |   |- - Gio_Yeu >  0.50
+|   |   |   |   |- - class: 0
+|- - ApSuat_Thap >  0.50
+|   |- - BienDoNhiet_Hep <= 0.50
+|   |   |- - DoAm_BinhThuong <= 0.50
+|   |   |   |- - NhietDo_Lanh <= 0.50
+|   |   |   |   |- - class: 0
+|   |   |   |- - NhietDo_Lanh >  0.50
+|   |   |   |   |- - class: 0
+|   |   |- - DoAm_BinhThuong >  0.50
+|   |   |   |- - class: 0
+|   |- - BienDoNhiet_Hep >  0.50
+|   |   |- - NhietDo_Lanh <= 0.50
+|   |   |   |- - HuongGio_Khac <= 0.50
+|   |   |   |   |- - class: 0
+|   |   |   |- - HuongGio_Khac >  0.50
+|   |   |   |   |- - class: 0
+|   |   |- - NhietDo_Lanh >  0.50
+|   |   |   |- - Gio_Yeu <= 0.50
+|   |   |   |   |- - class: 1
+|   |   |   |- - Gio_Yeu >  0.50
+|   |   |   |   |- - class: 0

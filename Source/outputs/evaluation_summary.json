@@ -1,0 +1,147 @@
+{
+    "best_model_name": "Naive Bayes - Full Features",
+    "reduct_selected": [
+        "NhietDo",
+        "DoAm",
+        "ApSuat",
+        "Gio",
+        "HuongGio",
+        "BienDoNhiet"
+    ],
+    "validation_results": {
+        "ID3 - Full Features": {
+            "TP": 13,
+            "FN": 49,
+            "FP": 9,
+            "TN": 416,
+            "Total": 487,
+            "Accuracy": 0.8809,
+            "Precision": 0.5909,
+            "Recall": 0.2097,
+            "F1_Score": 0.3095
+        },
+        "ID3 - Reduct Features": {
+            "TP": 13,
+            "FN": 49,
+            "FP": 9,
+            "TN": 416,
+            "Total": 487,
+            "Accuracy": 0.8809,
+            "Precision": 0.5909,
+            "Recall": 0.2097,
+            "F1_Score": 0.3095
+        },
+        "Naive Bayes - Full Features": {
+            "TP": 36,
+            "FN": 26,
+            "FP": 59,
+            "TN": 366,
+            "Total": 487,
+            "Accuracy": 0.8255,
+            "Precision": 0.3789,
+            "Recall": 0.5806,
+            "F1_Score": 0.4586
+        },
+        "Naive Bayes - Reduct Features": {
+            "TP": 36,
+            "FN": 26,
+            "FP": 59,
+            "TN": 366,
+            "Total": 487,
+            "Accuracy": 0.8255,
+            "Precision": 0.3789,
+            "Recall": 0.5806,
+            "F1_Score": 0.4586
+        },
+        "CART - Full Features": {
+            "TP": 7,
+            "FN": 55,
+            "FP": 5,
+            "TN": 420,
+            "Total": 487,
+            "Accuracy": 0.8768,
+            "Precision": 0.5833,
+            "Recall": 0.1129,
+            "F1_Score": 0.1892
+        },
+        "CART - Reduct Features": {
+            "TP": 7,
+            "FN": 55,
+            "FP": 5,
+            "TN": 420,
+            "Total": 487,
+            "Accuracy": 0.8768,
+            "Precision": 0.5833,
+            "Recall": 0.1129,
+            "F1_Score": 0.1892
+        }
+    },
+    "test_results": {
+        "ID3 - Full Features": {
+            "TP": 6,
+            "FN": 55,
+            "FP": 7,
+            "TN": 419,
+            "Total": 487,
+            "Accuracy": 0.8727,
+            "Precision": 0.4615,
+            "Recall": 0.0984,
+            "F1_Score": 0.1622
+        },
+        "ID3 - Reduct Features": {
+            "TP": 6,
+            "FN": 55,
+            "FP": 7,
+            "TN": 419,
+            "Total": 487,
+            "Accuracy": 0.8727,
+            "Precision": 0.4615,
+            "Recall": 0.0984,
+            "F1_Score": 0.1622
+        },
+        "Naive Bayes - Full Features": {
+            "TP": 34,
+            "FN": 27,
+            "FP": 52,
+            "TN": 374,
+            "Total": 487,
+            "Accuracy": 0.8378,
+            "Precision": 0.3953,
+            "Recall": 0.5574,
+            "F1_Score": 0.4626
+        },
+        "Naive Bayes - Reduct Features": {
+            "TP": 34,
+            "FN": 27,
+            "FP": 52,
+            "TN": 374,
+            "Total": 487,
+            "Accuracy": 0.8378,
+            "Precision": 0.3953,
+            "Recall": 0.5574,
+            "F1_Score": 0.4626
+        },
+        "CART - Full Features": {
+            "TP": 3,
+            "FN": 58,
+            "FP": 2,
+            "TN": 424,
+            "Total": 487,
+            "Accuracy": 0.8768,
+            "Precision": 0.6,
+            "Recall": 0.0492,
+            "F1_Score": 0.0909
+        },
+        "CART - Reduct Features": {
+            "TP": 3,
+            "FN": 58,
+            "FP": 2,
+            "TN": 424,
+            "Total": 487,
+            "Accuracy": 0.8768,
+            "Precision": 0.6,
+            "Recall": 0.0492,
+            "F1_Score": 0.0909
+        }
+    }
+}

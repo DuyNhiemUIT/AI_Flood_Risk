@@ -1,0 +1,19 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+port = 8501
+
+[client]
+toolbarMode = "minimal"
+
+[runner]
+fastReruns = true
+
+[theme]
+base = "dark"
+primaryColor = "#0284C7"
+backgroundColor = "#061828"
+secondaryBackgroundColor = "#0B2338"
+textColor = "#F8FAFC"

@@ -1,0 +1,9 @@
+# IE403: Đồ án Khai thác Dữ liệu & TTXH - UIT (ĐHQG-HCM)
+# Bản quyền (C) 2026 Nguyễn Duy Nhiệm (@DuyNhiemUIT)
+services:
+  flood-prediction-app:
+    build: .
+    container_name: uit_flood_kdd_app
+    ports:
+      - "8501:8501"
+    restart: unless-stopped

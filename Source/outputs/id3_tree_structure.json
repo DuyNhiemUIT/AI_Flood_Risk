@@ -1,0 +1,165 @@
+{
+    "type": "node",
+    "feature": "DoAm",
+    "gain": 0.0937,
+    "samples": 1461,
+    "majority_class": 0,
+    "children": {
+        "BinhThuong": {
+            "type": "leaf",
+            "class": 0,
+            "samples": 548,
+            "prob": 1.0
+        },
+        "Cao": {
+            "type": "node",
+            "feature": "ApSuat",
+            "gain": 0.0552,
+            "samples": 913,
+            "majority_class": 0,
+            "children": {
+                "Cao": {
+                    "type": "node",
+                    "feature": "HuongGio",
+                    "gain": 0.4075,
+                    "samples": 13,
+                    "majority_class": 0,
+                    "children": {
+                        "DongBac": {
+                            "type": "leaf",
+                            "class": 0,
+                            "samples": 9,
+                            "prob": 1.0
+                        },
+                        "Khac": {
+                            "type": "leaf",
+                            "class": 0,
+                            "samples": 3,
+                            "prob": 0.6667
+                        },
+                        "TayNam": {
+                            "type": "leaf",
+                            "class": 1,
+                            "samples": 1,
+                            "prob": 1.0
+                        }
+                    }
+                },
+                "TB": {
+                    "type": "node",
+                    "feature": "NhietDo",
+                    "gain": 0.0028,
+                    "samples": 470,
+                    "majority_class": 0,
+                    "children": {
+                        "Lanh": {
+                            "type": "node",
+                            "feature": "Gio",
+                            "gain": 0.075,
+                            "samples": 52,
+                            "majority_class": 0,
+                            "children": {
+                                "Manh": {
+                                    "type": "leaf",
+                                    "class": 0,
+                                    "samples": 14,
+                                    "prob": 0.6429
+                                },
+                                "Yeu": {
+                                    "type": "leaf",
+                                    "class": 0,
+                                    "samples": 38,
+                                    "prob": 0.9211
+                                }
+                            }
+                        },
+                        "Mat": {
+                            "type": "node",
+                            "feature": "Gio",
+                            "gain": 0.0052,
+                            "samples": 418,
+                            "majority_class": 0,
+                            "children": {
+                                "Manh": {
+                                    "type": "leaf",
+                                    "class": 0,
+                                    "samples": 139,
+                                    "prob": 0.9424
+                                },
+                                "Yeu": {
+                                    "type": "leaf",
+                                    "class": 0,
+                                    "samples": 279,
+                                    "prob": 0.8925
+                                }
+                            }
+                        }
+                    }
+                },
+                "Thap": {
+                    "type": "node",
+                    "feature": "BienDoNhiet",
+                    "gain": 0.0361,
+                    "samples": 430,
+                    "majority_class": 0,
+                    "children": {
+                        "Hep": {
+                            "type": "node",
+                            "feature": "NhietDo",
+                            "gain": 0.0113,
+                            "samples": 273,
+                            "majority_class": 0,
+                            "children": {
+                                "Lanh": {
+                                    "type": "leaf",
+                                    "class": 1,
+                                    "samples": 31,
+                                    "prob": 0.5484
+                                },
+                                "Mat": {
+                                    "type": "leaf",
+                                    "class": 0,
+                                    "samples": 241,
+                                    "prob": 0.6224
+                                },
+                                "Nong": {
+                                    "type": "leaf",
+                                    "class": 0,
+                                    "samples": 1,
+                                    "prob": 1.0
+                                }
+                            }
+                        },
+                        "Rong": {
+                            "type": "node",
+                            "feature": "NhietDo",
+                            "gain": 0.0084,
+                            "samples": 157,
+                            "majority_class": 0,
+                            "children": {
+                                "Lanh": {
+                                    "type": "leaf",
+                                    "class": 0,
+                                    "samples": 2,
+                                    "prob": 0.5
+                                },
+                                "Mat": {
+                                    "type": "leaf",
+                                    "class": 0,
+                                    "samples": 153,
+                                    "prob": 0.817
+                                },
+                                "Nong": {
+                                    "type": "leaf",
+                                    "class": 0,
+                                    "samples": 2,
+                                    "prob": 1.0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

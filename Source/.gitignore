@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache & test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+~$*
+.~lock.*
+scratch/
+output/
+*.wav
+*.mp3
+find_html_issues.py
+test_md_render.py
+check_all_markdowns.py
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# macOS system files
+.DS_Store
+._*
+
+# Agent and editor config
+.agents/
+.claude/
+.vscode/
